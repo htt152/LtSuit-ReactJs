@@ -1,0 +1,220 @@
+.dropdown {
+  position: relative;
+  text-align: right;
+  align-items: flex-end;
+}
+
+.dropdown-content {
+  /* display: none; */
+  position: absolute;
+  background-color: #f9f9f9;
+  max-width: 100%;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+  padding: 5px 5px;
+  z-index: 1;
+  text-align: center;
+}
+.dropdown-content ul {
+  padding-right: 40px;
+}
+.dropdown-content ul li {
+  list-style: none;
+  position: relative;
+}
+
+.dropdown-content1 {
+  /* display: none; */
+  position: absolute;
+  background-color: #f9f9f9;
+  max-width: 400px;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 20vw;
+  padding: 5px 5px;
+  z-index: 1;
+  text-align: center;
+}
+.dropdown-content1 ul {
+  padding-right: 40px;
+}
+.dropdown-content1 ul li {
+  list-style: none;
+  position: relative;
+}
+
+.btnPoint {
+  width: 150px;
+  margin: 5px 0px;
+  text-transform: capitalize;
+}
+.btnDate {
+  width: 50px;
+  margin: 5px 5px;
+  text-transform: capitalize;
+}
+.btnConfirm {
+  font-size: 12px;
+  height: 35px;
+  width: 5.5vw;
+  margin-left: 50px;
+}
+
+@media screen and (min-width: 601px) {
+  .textStyle {
+    font-size: 20px;
+  }
+  .inputStyle {
+    width: 82%;
+  }
+  .btnFormNp {
+    width: 10vw;
+    padding-right: 20px;
+  }
+  .itemFullWidth {
+    width: 100vw;
+  }
+  .contentFormNp {
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .btnListNp {
+    min-width: 89px;
+  }
+  .dialogBangDiem {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .titleConfirmNP {
+    text-align: center;
+  }
+  .timeSelectBox {
+    width: 12.5vw;
+  }
+  .titleStyle1 {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .gridStyle {
+    padding: 10px;
+  }
+  .danhsach {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .titleStyle2 {
+    font-size: 13px;
+    padding: 10px;
+  }
+  .title1 {
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+  }
+  .title2 {
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .grid1 {
+    text-align: right;
+    padding: 10px;
+  }
+  .search-tv{
+    width: 95%;
+    height: 35px;
+    align-items: flex-end;
+  }
+  .container-tv{
+    background-color: #3C4252;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .tvien-title{
+    color: white;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .itemFullWidth {
+    width: 100vw;
+  }
+  .textStyle {
+    font-size: 16px;
+  }
+  .btnListNp {
+    min-width: 89px;
+  }
+  .titleStyle {
+    font-size: 8vw;
+    text-align: center;
+  }
+  .dateFormStyle {
+    width: 100%;
+  }
+  .inputStyle {
+    width: 95%;
+  }
+  .btnFormNp {
+    font-size: 3vw;
+  }
+  .contentFormNp {
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .dialogBangDiem {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .titleConfirmNP {
+    font-size: 7vw;
+    text-align: center;
+  }
+  .timeSelectBox {
+    width: 90%;
+    padding-top: 3.3px;
+  }
+  .titleStyle1 {
+    font-size: 5vw;
+    padding: 10px;
+  }
+  .gridStyle {
+    padding: 10px;
+  }
+  .danhsach {
+    align-items: center;
+    font-size: 5vw;
+    padding: 10px;
+  }
+  .titleStyle2 {
+    font-size: 2.5vw;
+    padding: 10px;
+  }
+  .title1 {
+    font-size: 4vw;
+    padding: 10px;
+  }
+  .title2 {
+    font-size: 7vw;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .grid1 {
+    align-items: flex-end;
+    padding: 10px;
+  }
+  .dropdown-content {
+    margin-left: 40vw;
+    max-width: 300px;
+  }
+  .dropdown-content1 {
+    margin-left: 40vw;
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,66 @@
+.headerStyle {
+  height: 180px;
+  background-image: url(../styles//image/background_1.png);
+  padding: 20px;
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+  max-height: 100%;
+  place-content: flex-end space-between;
+}
+.thongTinStyle {
+  padding: 15px;
+  font-size: 15px;
+}
+.typographyStyle1 {
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+.typographyStyle {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.img-profile {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+.grid-thong-tin-style1 {
+  padding-bottom: 20px;
+}
+
+.thong-tin-error {
+  color: #cccccc;
+}
+
+@media screen and (min-width: 601px) {
+  .grid-thong-tin-style {
+    margin-left: 20px;
+   
+  }
+  .content {
+    font-size: 25px;
+    padding-top: 35px;
+  }
+  .edit-thong-tin-style {
+    padding-top: 35px;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    font-size: 5vw;
+    padding-top: 35px;
+  }
+  .edit-thong-tin-style {
+    text-align: center;
+  }
+}
